@@ -3,7 +3,7 @@ import HeroImage from "./hero_image/HeroImage";
 
 const Hero = () => {
     return (
-        <div className="px-32 flex flex-row gap-4 mt-6">
+        <div className="px-80 flex flex-row gap-4 mt-6 relative">
             <HeroText />
             <HeroImage />
         </div>
