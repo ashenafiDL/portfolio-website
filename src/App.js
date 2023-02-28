@@ -1,25 +1,20 @@
-import "./App.css";
+import AboutMe from "./components/about/about-me";
+import ContactMe from "./components/contact-me/contact-me";
+import Footer from "./components/footer/footer";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
-import Card from "./components/cards/card";
-import AboutMe from "./components/about/about-me";
 import Projects from "./components/projects/project";
 
 function App() {
   return (
-    <div className="h-screen/10">
+    <div>
+      {/* TODO - make the site responsive */}
       <Header />
       <Hero />
-
-      <hr className="mt-96" />
-
       <AboutMe />
-
-      <hr />
-
       <Projects />
-
-      <hr className="m-24" />
+      <ContactMe />
+      <Footer />
     </div>
   );
 }
