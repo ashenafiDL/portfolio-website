@@ -1,6 +1,6 @@
 const Card = (props) => {
   return (
-    <div className="w-full cursor-pointer border duration-100 hover:scale-105">
+    <div className="w-full cursor-pointer border border-[#bdbdbd] duration-200 hover:-translate-y-5">
       <div className="h-64 w-full bg-primary bg-opacity-80"></div>
       <div className="py-4 px-8">
         <h1 className="text-3xl font-bold">{props.project.title}</h1>

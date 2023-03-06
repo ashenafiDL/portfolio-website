@@ -1,13 +1,19 @@
 function ContactMe() {
   return (
     <section id="contact-me" className="mx-80 my-24">
+      <div className="mb-8">
+        <hr className="border border-black" />
+        <h1 className="m-auto w-fit -translate-y-6 bg-white px-8 text-4xl">
+          Contact Me
+        </h1>
+      </div>
       <div className="grid grid-cols-1 justify-items-center">
         <form action="" method="post" className="w-1/2">
           <div className="name my-3">
             <label htmlFor="name">Your Name</label>
             <br />
             <input
-              className="w-full border border-black px-3 py-2"
+              className="w-full border border-black px-2 py-1"
               type="text"
               name="name"
               id="name"
@@ -17,7 +23,7 @@ function ContactMe() {
             <label htmlFor="email">Your Email</label>
             <br />
             <input
-              className="w-full border border-black px-3 py-2"
+              className="w-full border border-black px-2 py-1"
               type="email"
               name="email"
               id="email"

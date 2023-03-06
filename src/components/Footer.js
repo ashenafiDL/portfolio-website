@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <footer className="border-t py-5 text-center">
+    <footer className="border-t border-gray-300 py-5 text-center">
       <div className="author text-gray-600">
         <p className="flex flex-row justify-center gap-4">
           {/* TODO - make this thing a link */}

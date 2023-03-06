@@ -7,7 +7,7 @@ import Projects from "./components/projects/Project";
 
 function App() {
   return (
-    <div>
+    <div className="bg-white">
       {/* TODO - make the site responsive */}
       <Header />
       <Hero />
