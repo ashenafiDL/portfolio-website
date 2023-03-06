@@ -1,15 +1,25 @@
 import Card from "./card";
 
-// TODO - use array map method to display the projects
+const projects = [
+  {
+    title: "EBA Books",
+    techs: ["React", "Tailwindcss"],
+    description: "The biggest online bookstore in Ethiopia.",
+  },
+  {
+    title: "Weather-app",
+    techs: ["Flask", "Tailwindcss"],
+    description: "A simple weather app implemented using React.",
+  },
+];
 
 function Projects() {
   return (
     <div id="projects" className="py-24">
       <div className="md:px-50 mb-4 grid gap-8 sm:px-32 md:grid-cols-1 lg:grid-cols-2 lg:px-80">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {projects.map((project) => {
+          return <Card project={project} />;
+        })}
       </div>
     </div>
   );
