@@ -23,7 +23,7 @@ function AboutMe() {
     },
   ];
   return (
-    <section id="about-me" className="py-24">
+    <section id="about-me" className="h-screen border py-24">
       <div className="flex w-full flex-col gap-16 bg-primary bg-opacity-20 py-20 text-center text-black">
         <div className="about mx-auto w-[25%]">
           <h3 className="mb-3 text-3xl font-bold">About Me</h3>
