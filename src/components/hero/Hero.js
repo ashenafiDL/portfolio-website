@@ -1,10 +1,10 @@
-import Avatar from "../../svg/Avatar.svg";
+import Avatar from "../../assets/svg/Avatar.svg";
 
 const Hero = () => {
   return (
     <section className="relative mt-6 flex flex-row gap-4 px-80 pb-96">
       {/* Hero section text */}
-      <div className="font-sofia-sans w-full rounded bg-gradient-to-br from-primary to-secondary px-24 py-24 drop-shadow-sm">
+      <div className="font-sofia-sans w-full bg-gradient-to-br from-primary to-secondary px-24 py-24 text-black text-opacity-90 drop-shadow-sm">
         <div>
           <h1 className="text-3xl">Hi, I'm</h1>
 
@@ -32,23 +32,18 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-row gap-4">
-          {/* TODO - add hover effect */}
-          <button className="border-2 border-black bg-transparent py-2 px-8 ">
+          <button className="border-2 border-black bg-transparent bg-gradient-to-r from-black to-black bg-[length:0_100%] bg-no-repeat py-2 px-8 duration-200 hover:bg-[length:100%_100%] hover:text-white">
             My Resume
           </button>
-          <button className="border-2 border-black bg-transparent py-2 px-8">
+          <button className="border-2 border-black bg-transparent bg-gradient-to-r from-black to-black bg-[length:0_100%] bg-no-repeat py-2 px-8 duration-200 hover:bg-[length:100%_100%] hover:text-white">
             Contact Me
           </button>
         </div>
       </div>
 
       {/* Hero section image */}
-      <div className="absolute top-52 left-2/4 rounded">
-        <img
-          src={Avatar}
-          alt="Avatar"
-          className="h-2/3 rounded-2xl drop-shadow-2xl"
-        />
+      <div className="absolute top-52 left-2/4">
+        <img src={Avatar} alt="Avatar" className="h-2/3 drop-shadow-2xl" />
       </div>
     </section>
   );

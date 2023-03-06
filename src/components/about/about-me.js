@@ -41,7 +41,10 @@ function AboutMe() {
           <div className="flex gap-8">
             {skills.map((skill) => {
               return (
-                <div className="flex w-fit items-center gap-4 rounded-full bg-white px-4 py-2 shadow-sm duration-200 hover:-translate-y-[1px] hover:scale-105 hover:cursor-default hover:shadow-lg">
+                <div
+                  className="flex w-fit items-center gap-4
+                 bg-white px-8 py-2 shadow-sm duration-200 hover:-translate-y-[1px] hover:scale-105 hover:cursor-default hover:shadow-lg"
+                >
                   {/* TODO - use image instead of icon */}
                   <i class={skill.logo_class}></i>
                   <span>{skill.skill_name}</span>

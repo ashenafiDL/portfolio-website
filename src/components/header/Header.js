@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="flex h-24 flex-row justify-between border border-b-gray-300 px-80">
+    <header className="flex flex-row justify-between border border-b-gray-300 py-4 px-80">
       {/* Logo */}
       <div className="my-auto">
         <a href="/">

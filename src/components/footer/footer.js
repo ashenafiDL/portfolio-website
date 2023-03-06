@@ -5,9 +5,9 @@ function Footer() {
         <p className="flex flex-row justify-center gap-4">
           {/* TODO - make this thing a link */}
           <span>ashenafi.debella101@gmail.com</span>
-          <div className="border border-black"></div>
+          <div className="border border-gray-600"></div>
           <span>+2519 60-16-11-07</span>
-          <div className="border border-black"></div>
+          <div className="border border-gray-600"></div>
           <span>Addis Ababa, Ethiopia</span>
         </p>
         <p className="mt-2">

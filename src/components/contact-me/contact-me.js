@@ -42,7 +42,7 @@ function ContactMe() {
               name="attachment"
               id="attachment"
             />
-            <button className="border-2 border-primary bg-primary py-2 px-8 font-bold text-white duration-200 hover:bg-white hover:text-primary">
+            <button className="border-2 border-primary bg-gradient-to-r from-primary to-primary bg-[length:100%_100%] bg-right bg-no-repeat py-2 px-8 font-bold text-white duration-200 hover:bg-white hover:bg-[length:0_100%] hover:text-primary">
               Send
             </button>
           </div>
