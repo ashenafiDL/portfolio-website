@@ -11,6 +11,18 @@ const projects = [
     techs: ["Flask", "Tailwindcss"],
     description: "A simple weather app implemented using React.",
   },
+  {
+    title: "Sentiment Analysis for Amharic Language",
+    techs: ["Tensorflow", "Flask", "Tailwindcss"],
+    description:
+      "A machine learning model trained to label Amharic texts as positive, negative or neutral",
+  },
+  {
+    title: "Goal Based Launcher",
+    techs: ["Flutter", "Material-UI"],
+    description:
+      "Android phone launcher that aims to reduce screen time and help achieve goals",
+  },
 ];
 
 function Projects() {

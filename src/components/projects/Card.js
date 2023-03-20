@@ -14,6 +14,7 @@ const Card = (props) => {
           })}
         </p>
         <p className="mt-2 text-gray-600">{props.project.description}</p>
+        {/* TODO - add github and read more icons */}
       </div>
     </div>
   );
