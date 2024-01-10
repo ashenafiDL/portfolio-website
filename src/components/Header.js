@@ -1,39 +1,19 @@
-const Header = () => {
+export default function Header() {
   return (
-    <header className="flex flex-row justify-between border border-b-gray-300 py-4 px-80">
+    <header className="flex flex-row items-center justify-between py-6">
       {/* Logo */}
-      <div className="my-auto">
-        <a href="/">
-          <span className="text-2xl">ashenafiDL</span>
+      <div>
+        <a href="/#">
+          <span className="text-2xl font-semibold">ashenafiDL</span>
         </a>
       </div>
 
       {/* Navigation */}
-      <div className="my-auto flex flex-row gap-8 duration-500 ">
-        <a
-          href="#about-me"
-          className="cursor-pointer duration-200 hover:text-primary"
-          p-1
-        >
-          About Me
-        </a>
-        <a
-          href="#projects"
-          className="cursor-pointer duration-200 hover:text-primary"
-          p-1
-        >
-          Projects
-        </a>
-        <a
-          href="#contact-me"
-          className="cursor-pointer duration-200 hover:text-primary"
-          p-1
-        >
-          Contact Me
-        </a>
+      <div className="flex flex-row gap-10 text-lg [&>a]:cursor-pointer hover:[&>a]:underline">
+        <a href="#about-me">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact-me">Contact Me</a>
       </div>
     </header>
   );
-};
-
-export default Header;
+}
