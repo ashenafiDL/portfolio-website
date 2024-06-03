@@ -1,0 +1,32 @@
+[
+  {
+    "title": "VolunteerLink",
+    "githubLink": "https://github.com/ashenafiDL/volunteer-link",
+    "description": "VolunteerLink is an online platform designed to connect volunteers with organizations efficiently. It aims to bridge the gap between eager volunteers and organizations in need of their skills.",
+    "tools": [
+      "Next.js",
+      "Nest.js",
+      "PostgreSQL",
+      "Prisma",
+      "TypeScript",
+      "Tailwind-CSS"
+    ]
+  },
+  {
+    "title": "IE Network Solutions LMS",
+    "description": "I build the frontend part of a Learning Management System for IE Network Solutions, during my internship there.",
+    "tools": ["React", "Material-UI"]
+  },
+  {
+    "title": "iconic-duos",
+    "githubLink": "https://github.com/ashenafiDL/iconic-duos",
+    "description": "A data analysis on TMDB movie data to find out which actors tend to appear together in movies.",
+    "tools": ["Pandas", "Matplotlib", "Seaborn", "Python", "NetworkX"]
+  },
+  {
+    "title": "Amharic Sentiment Analysis",
+    "githubLink": "https://github.com/ashenafiDL/amharic-sentiment-analysis",
+    "description": "Done for Machine Learning course semester project. This is an attempt made to create a machine learning model to detect sentiment in Amharic texts. Twitter (now X) comment data was used to train the models.",
+    "tools": ["Matplotlib", "Pandas", "Python", "TensorFlow"]
+  }
+]
