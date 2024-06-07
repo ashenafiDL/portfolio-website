@@ -11,7 +11,7 @@ export default function CustomLink({ href, text, target }: LinkProp) {
     <Link
       href={href}
       target={target}
-      className="text-pretty text-blue-500 underline"
+      className="text-pretty text-[#0084FF] underline"
     >
       {text}
     </Link>
