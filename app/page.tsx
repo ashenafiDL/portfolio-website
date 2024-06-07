@@ -1,16 +1,17 @@
+import ExperienceSection from "@/components/ExperienceSection";
 import ProjectsSection from "@/components/ProjectsSection";
 import SidebarSection from "@/components/SidebarSection";
 import Link from "next/link";
 
 export default async function Home() {
   return (
-    <main className="grid grid-cols-1 lg:grid-cols-[40%_auto]">
+    <main className="grid grid-cols-1 bg-background-100 lg:grid-cols-[40%_auto]">
       {/* The fixed section on the left */}
       <SidebarSection />
 
-      <div className="px-12 py-6">
+      <div className="px-5 py-8 lg:px-12">
         <nav className="sticky top-6">
-          <ul className="flex flex-row justify-end gap-4 [&>li]:text-xl">
+          <ul className="flex flex-row justify-end gap-4 [&>li]:text-base">
             <li>
               <Link href="#projects">Projects</Link>
             </li>
@@ -21,6 +22,8 @@ export default async function Home() {
         </nav>
 
         <ProjectsSection />
+
+        <ExperienceSection />
       </div>
     </main>
   );
