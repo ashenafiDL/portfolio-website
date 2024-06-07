@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Avatar from "./Avatar";
 import CustomLink from "./CustomLink";
+import ListItem from "./ListItem";
 
 const LINKS = [
   {
@@ -22,26 +23,26 @@ const LINKS = [
 
 export default function SidebarSection() {
   return (
-    <section className="p-6 lg:sticky lg:top-0 lg:h-screen">
-      <div className="flex h-full flex-col justify-between gap-8 rounded-3xl bg-slate-200 p-8 shadow-lg md:p-12 lg:gap-0 xl:p-20">
+    <section className="p-3 lg:sticky lg:top-0 lg:h-screen lg:p-6">
+      <div className="flex h-full flex-col justify-between gap-10 rounded-3xl bg-background-200 p-6 shadow-lg md:p-12 lg:gap-0 lg:p-8 xl:p-20">
         <div>
           <Avatar />
-          <h3 className="text-3xl font-bold">ashenafiDL</h3>
-          <p className="text-pretty text-lg leading-snug">
+          <h3 className="text-xl font-bold">ashenafiDL</h3>
+          <p className="text-pretty text-sm opacity-75 lg:text-base">
             Detail-oriented software engineer with a focus on frontend
             development. Enjoys working on challenging projects.
           </p>
         </div>
 
         <div>
-          <ul className="[&>li]:bg-[url(/icons/chevron-right.svg)] [&>li]:bg-left [&>li]:bg-no-repeat [&>li]:pl-8 [&>li]:text-lg">
-            <li>
+          <ul className="[&>li]:text-xs lg:[&>li]:text-base">
+            <ListItem>
               <Link href="/doc/resume.pdf" target="_blank">
                 My CV/Resume
               </Link>
-            </li>
+            </ListItem>
 
-            <li>
+            <ListItem>
               {LINKS.map((link, index) => {
                 return (
                   <span key={index}>
@@ -50,16 +51,18 @@ export default function SidebarSection() {
                   </span>
                 );
               })}
-            </li>
+            </ListItem>
 
-            <li>
-              Reach out to me at{" "}
-              <CustomLink
-                href="mailto:ashenafi.debella101@gmail.com"
-                text="ashenafi.debella101@gmail.com"
-                target="_blank"
-              />
-            </li>
+            <ListItem>
+              <div>
+                Reach out to me at{" "}
+                <CustomLink
+                  href="mailto:ashenafi.debella101@gmail.com"
+                  text="ashenafi.debella101@gmail.com"
+                  target="_blank"
+                />
+              </div>
+            </ListItem>
           </ul>
         </div>
       </div>
