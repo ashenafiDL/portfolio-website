@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import type { Metadata } from "next";
 import { ThemeProvider } from "next-themes";
 import { Cabin } from "next/font/google";
@@ -20,6 +21,7 @@ export default function RootLayout({
       <body className={`text-text-100 ${cabin.className}`}>
         <ThemeProvider defaultTheme="system" enableSystem>
           {children}
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>
