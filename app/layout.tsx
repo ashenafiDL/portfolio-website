@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ThemeProvider } from "next-themes";
 import { Cabin } from "next/font/google";
 import "./globals.css";
 
@@ -15,8 +16,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={cabin.className}>{children}</body>
+    <html lang="en" color="dark">
+      <body className={`text-text-100 ${cabin.className}`}>
+        <ThemeProvider defaultTheme="system" enableSystem>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
