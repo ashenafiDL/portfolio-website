@@ -20,7 +20,7 @@ export default async function ProjectsSection() {
   const projects = JSON.parse(file);
 
   return (
-    <section id="projects" className="py-32">
+    <section id="projects" className="pb-8 pt-32">
       <SectionHeader text="Projects" />
 
       <div className="flex flex-col gap-14">
@@ -31,7 +31,7 @@ export default async function ProjectsSection() {
               className="flex flex-col items-start justify-start gap-2"
             >
               <div className="inline-flex items-end justify-start gap-6">
-                <h5 className="text-xl font-normal leading-normal">
+                <h5 className="text-base font-normal leading-normal">
                   {project.title}
                 </h5>
                 <div className="flex items-start justify-start gap-2">
@@ -44,7 +44,7 @@ export default async function ProjectsSection() {
                 </div>
               </div>
 
-              <p className="w-5/6">{project.description}</p>
+              <p className="opacity-75 lg:w-[90%]">{project.description}</p>
 
               <div className="wrapper my-1 flex flex-row items-center gap-4">
                 {project.tools.map((tool, index) => {
@@ -58,7 +58,7 @@ export default async function ProjectsSection() {
         <div>
           Also{" "}
           <CustomLink
-            href="https://t.me/CapturesByAshenafi"
+            href="https://t.me/+SMVct7Idt9Q2ZTJk"
             text="check out"
             target="_blank"
           />{" "}
