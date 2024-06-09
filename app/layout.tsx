@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" color="dark">
       <body className={`text-text-100 ${cabin.className}`}>
-        <ThemeProvider defaultTheme="system" enableSystem>
+        <ThemeProvider defaultTheme="dark">
           {children}
           <Analytics />
         </ThemeProvider>
