@@ -1,9 +1,10 @@
 import ExperienceSection from "@/components/ExperienceSection";
+import Footer from "@/components/Footer";
 import ProjectsSection from "@/components/ProjectsSection";
 import SidebarSection from "@/components/SidebarSection";
 import Link from "next/link";
 
-export default async function Home() {
+export default function Home() {
   return (
     <main className="grid grid-cols-1 bg-background-100 lg:grid-cols-[40%_auto]">
       {/* The fixed section on the left */}
@@ -24,6 +25,8 @@ export default async function Home() {
         <ProjectsSection />
 
         <ExperienceSection />
+
+        <Footer />
       </div>
     </main>
   );
