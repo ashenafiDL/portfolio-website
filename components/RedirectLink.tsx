@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Link from "next/link";
+import ArrowUpRightIcon from "./icons/ArrowUpRightIcon";
 
 type RedirectLinkProps = {
   text: string;
@@ -13,13 +13,7 @@ export default function RedirectLink({ text, href }: RedirectLinkProps) {
       target="_blank"
       className="flex items-center justify-start gap-1 opacity-75"
     >
-      <Image
-        src="/icons/arrow-up-right.svg"
-        alt=""
-        width={16}
-        height={16}
-        className="dark:invert"
-      />
+      <ArrowUpRightIcon />
       <span>{text}</span>
     </Link>
   );
