@@ -2,6 +2,7 @@
   {
     "title": "VolunteerLink",
     "githubLink": "https://github.com/ashenafiDL/volunteer-link",
+    "figmaLink": "https://www.figma.com/community/file/1395353815144133101/volunteerlink",
     "description": "VolunteerLink is an online platform designed to connect volunteers with organizations efficiently. It aims to bridge the gap between eager volunteers and organizations in need of their skills.",
     "tools": [
       "Next.js",
@@ -14,7 +15,8 @@
   },
   {
     "title": "IE Network Solutions LMS",
-    "description": "I build the frontend part of a Learning Management System for IE Network Solutions, during my internship there.",
+    "figmaLink": "https://www.figma.com/community/file/1395340464220970463/larning-management-system",
+    "description": "I designed and built the frontend part of a Learning Management System for IE Network Solutions, during my internship there.",
     "tools": ["React", "Material-UI"]
   },
   {

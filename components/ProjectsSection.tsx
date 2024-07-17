@@ -8,6 +8,7 @@ type ProjectType = {
   title: string;
   siteLink?: string;
   githubLink?: string;
+  figmaLink?: string;
   description: string;
   tools: Array<string>;
 };
@@ -40,6 +41,9 @@ export default async function ProjectsSection() {
                   )}
                   {project.githubLink && (
                     <RedirectLink text="GitHub" href={project.githubLink} />
+                  )}
+                  {project.figmaLink && (
+                    <RedirectLink text="Figma" href={project.figmaLink} />
                   )}
                 </div>
               </div>

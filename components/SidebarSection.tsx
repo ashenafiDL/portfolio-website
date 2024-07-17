@@ -10,6 +10,11 @@ const LINKS = [
     target: "_blank",
   },
   {
+    href: "https://figma.com/@ashenafiDL",
+    text: "Figma",
+    target: "_blank",
+  },
+  {
     href: "https://linkedin.com/in/ashenafiDL",
     text: "LinkedIn",
     target: "_blank",
