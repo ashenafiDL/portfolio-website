@@ -1,8 +1,14 @@
 import { promises as fs } from "fs";
 import CustomLink from "./CustomLink";
+import ImageSlider from "./ImageGallery";
 import RedirectLink from "./RedirectLink";
 import SectionHeader from "./SectionHeader";
 import TechLogoIcon from "./TechLogoIcon";
+
+type ImageType = {
+  src: string;
+  alt: string;
+};
 
 type ProjectType = {
   title: string;
@@ -11,6 +17,7 @@ type ProjectType = {
   figmaLink?: string;
   description: string;
   tools: Array<string>;
+  images?: Array<ImageType>;
 };
 
 export default async function ProjectsSection() {
@@ -48,8 +55,9 @@ export default async function ProjectsSection() {
                 </div>
               </div>
 
-              <p className="opacity-75 lg:w-[90%]">{project.description}</p>
+              {project.images && <ImageSlider images={project.images} />}
 
+              <p className="opacity-75 lg:w-[90%]">{project.description}</p>
               <div className="wrapper my-1 flex flex-row items-center gap-4">
                 {project.tools.map((tool, index) => {
                   return <TechLogoIcon key={index} name={tool} />;
