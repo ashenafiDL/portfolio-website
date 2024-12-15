@@ -1,5 +1,19 @@
 [
   {
+    "companyName": "Orbit Technology Solutions",
+    "role": "Junior Software Developer",
+    "description": "Developed mobile applications using Flutter, React, and Laravel to educate and empower youth with health-related information.",
+    "startDate": "Oct 2024",
+    "endDate": "Dec 2024"
+  },
+  {
+    "companyName": "Private Client",
+    "role": "UI Designer",
+    "description": "Designed UI layouts and prototypes for a restaurant payment mobile app, including some marketing content to support the application's launch and promotion.",
+    "startDate": "Aug 2024",
+    "endDate": "Aug 2024"
+  },
+  {
     "companyName": "IE Network Solutions",
     "role": "Frontend developer (Intern)",
     "description": "Contributed to the design and implementation of a web based learning management system. Collaborated with the back-end team to integrate APIs and optimize performance.",

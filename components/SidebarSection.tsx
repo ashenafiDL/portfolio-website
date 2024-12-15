@@ -34,8 +34,7 @@ export default function SidebarSection() {
           <Avatar />
           <h3 className="text-xl font-bold">ashenafiDL</h3>
           <p className="text-pretty text-sm opacity-75 lg:text-base">
-            Detail-oriented software engineer with a focus on frontend
-            development. Enjoys working on challenging projects.
+            I design and build easy-to-use and attractive systems. I enjoy learning new things and building projects that make a difference.
           </p>
         </div>
 
