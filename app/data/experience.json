@@ -1,5 +1,12 @@
 [
   {
+    "companyName": "Ministry of Innovation and Technology",
+    "role": "Young Professional",
+    "description": "I’m working on the development of a Government Digital Office Platform designed to eliminate paper-based workflows and fully digitize internal processes across public sector institutions.",
+    "startDate": "Dec 2024",
+    "endDate": "Present"
+  },
+  {
     "companyName": "Orbit Technology Solutions",
     "role": "Junior Software Developer",
     "description": "Developed mobile applications using Flutter, React, and Laravel to educate and empower youth with health-related information.",
